@@ -1,0 +1,40 @@
+.weather-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.city-name {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature {
+  color: #e25f13;
+  margin: 15px;
+}
+
+.description {
+  color: #0b711e;
+  margin: 15px;
+  text-transform: capitalize;
+}
+
+.wind-speed {
+  color: #dc3545;
+  margin: 15px;
+}
+
+.weather-icon {
+  color: #dc35bd;
+  margin: 15px;
+}
